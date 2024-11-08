@@ -15,9 +15,9 @@ function App() {
       <div  className="min-h-screen bg-[#2b2b2b] text-white pixel-font">
         <Toaster position="top-right" />
         <Routes>
-          <Route path='/login' element={<HomePage/>}/>
+          <Route path='/' element={<HomePage/>}/>
           <Route path='/dinoGame' element={<DinoGameScreen/>}/>
-          <Route path='/' element={<HomeScreen/>}/>
+          <Route path='/login' element={<HomeScreen/>}/>
           <Route path="/memoryGame" element={<Home />} />
           <Route path="/memoryGame/game" element={<Game />} />
           <Route path="/memoryGame/leaderboard" element={<Leaderboard />} />
